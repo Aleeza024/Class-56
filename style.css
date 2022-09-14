@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    background-color: #3260df;
+    color: rgb(196, 141, 247);
+    font-family: monospace;
+    font-size: 50px;
+}
+.item2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    border-style: dotted;
+    display: inline;
+    /* margin-right: 100px; */
+    padding: 3%;
+}
+.item2 a{
+    /* display: inline-block; */
+    margin-left: 4% ;
+    margin-right: 5%;
+    /* line-height: 3; */
+}
+a:hover{
+    background-color: orange;
+}
+a:link{
+    background-color: yellow;
+}
+a:visited{
+    background-color: turquoise;
+}
+a:active{
+    background-color: yellowgreen;
+    color: white;
+}
+.item1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+img:hover{
+    opacity: 0.33;
+}
